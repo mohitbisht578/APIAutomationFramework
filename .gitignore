@@ -45,10 +45,10 @@ application.properties
 
 # Test Artifacts (optional)
 *.json
-*.xml
+# Ignore test-related XMLs only if needed — otherwise comment it out
+# *.xml
 *.csv
 *.xlsx
-
 # VS Code
 .vscode/
 
